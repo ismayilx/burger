@@ -306,3 +306,50 @@
 
 
 /*events*/
+
+.events{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.events-card{
+    height: 380px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1100px;
+   
+}
+
+#event-img{
+    width: 520px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.events-text{
+    width: 520px;
+
+    h2{
+        font: 700 29px "Bebas Neue";
+        letter-spacing: 2px;
+        color: #3d3d3d;
+    }
+
+    h1{
+        font: 400 42px "Alfa Slab One";
+        color: #3d2514;
+        text-transform: uppercase;
+    }
+
+    p{
+        font: 400 21px "Montserrat";
+        color: #3d3d3d;
+        line-height: 33px;
+        padding-top: 30px;
+    }
+}
+
+/*reservation*/
