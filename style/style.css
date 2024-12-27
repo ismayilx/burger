@@ -1,23 +1,161 @@
 .container{max-width: 1100px; margin: 0 auto;}
 
 .header-bg{
-    color: #ffc045;
+    background-color: #ffc045;
 }
 
 .main-header{
     display: flex;
     justify-content: space-between;
+    height: 135px;
+    align-items: center;
 }
 
 #header-logo{
     max-width: 265px;
     height: 57px;
+    display: flex;
+    align-items: center;
+    background-color: #ffc045;
 }
 
+.header-right{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
+    a{
+        color: #3d2514;
+        text-decoration: none;
+    }
+}
 
+.delivery{
+    display: flex;
+    justify-content: end;
 
+    a{
+        font: 700 17px "Montserrat";
+    }
+}
 
+.header-nav{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        font: 700 21px "Bebas Neue";
+        letter-spacing: 4px;
+    }
+}
+
+/*header-main*/
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+}
+
+.main1-left{
+    width: 400px;
+    color: #3d2514;
+    
+    p{
+        font: 400 24px "Bebas Neue";
+        color: #3d2514;
+        padding: 10px 15px;
+        border: 3px dashed #3d2514;
+    }
+
+    h1{
+        font: 400 114px "Alfa Slab One";
+        filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    }
+
+    h2{
+        font: 400 62px "Alfa Slab One";
+        filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    }
+}
+
+#main1-fries{
+    max-width: 200px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+#main1-cola{
+    max-width: 140px;
+    height: 330px;
+    position: absolute;
+    right: 0;
+    top: 200;
+    right: 50px;
+}
+
+#main1-burger{
+    max-width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.main1-imgs{
+    position: relative;
+    width: 500px;
+}
+
+.main1-price{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #bf2222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 240px;
+
+    section{
+        font: 700 40px "Bebas Neue";
+        text-align: center;
+        color: #fff;
+        background-color: #bf2222;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        border: 4px dashed #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#burger-shadow1{
+    position: absolute;
+    max-width: 300px;
+    height: 40px;
+    right: 0;
+    right: 100px;
+    top: 350px;
+}
+
+#burger-shadow2{
+    position: absolute;
+    max-width: 200px;
+    height: 40px;
+    right: 0;
+    right: 5px;
+    top: 325px;
+}
+
+/*try it*/
 
 
 
