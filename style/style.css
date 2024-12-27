@@ -157,7 +157,50 @@
 
 /*try it*/
 
+.try-it{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
 
+.try-it-left{
+    width: 450px;
+    height: 330px;
+    background: url("../img/try-it-img1.png") center/cover;
+    position: relative;
+    
+    p{
+        color: #fff;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        font: 500 18px "Bebas neue";
+    }
+
+    span{
+        color: #fff;
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        font: 700 25px "Bebas neue";
+    }
+}
+
+.try-it-right{
+    width: 450px;
+    height: 400px;
+}
+
+#try-it-img2{
+   width: 450px;
+   height: 200px;
+}
+
+#try-it-img3{
+    width: 450px;
+    height: 250px; 
+}
 
 
 
@@ -260,3 +303,6 @@
     height: 190px;
     width: 240px;
 }
+
+
+/*events*/
